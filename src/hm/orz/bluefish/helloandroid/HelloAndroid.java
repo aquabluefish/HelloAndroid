@@ -11,6 +11,6 @@ public class HelloAndroid extends Activity {
 		super.onCreate(savedInstanceState);
 		Toast.makeText(this, "Hello Android!", Toast.LENGTH_SHORT).show();
 
-//		setContentView(R.layout.activity_main);
+		setContentView(R.layout.main);
 	}
 }
